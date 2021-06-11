@@ -1,0 +1,21 @@
+GET http://localhost:3000/client/getClient
+
+###
+GET http://localhost:3000/client/getClientDTO
+
+###
+
+POST http://localhost:3000/clients
+Content-Type: application/json
+
+{
+    "title":"test",
+    "name":"test",
+    "date":"test"
+}
+###
+
+
+PUT  http://localhost:3000/client/updateClient
+###
+DELETE  http://localhost:3000/client/deleteClient/1
